@@ -1,0 +1,263 @@
+/*/////////////
+	------------
+	General index
+	-------------
+1. Sections of 'Box' 
+2. Text colors
+3.Texts
+	3.1 Text before Header
+	3.2 Text of 'Hearder'|'Footer'
+4. CSS for 'Content'
+5. 'Highligh' Section Page 2
+6. Steps Titles page 3 to 5
+7. Steps info page 3 to 5
+8. Media Queries
+
+//////////////*/
+
+
+
+/*/////////////
+	Erase
+//////////////*/
+
+#fake-website{
+	height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*/////////////
+1. Sections of Box
+//////////////*/
+.box-container{
+	width: 80%;
+}
+.before-header{
+	width: 100%;
+}
+.before-header div{
+	margin-left: 45px;
+}
+
+#icon{
+	height: 65px;
+	width: auto;
+	position: absolute;
+	margin-top: -25px;
+
+}
+#box-header{
+	background-color: #78909C;
+	text-align: center;
+	font-weight: bold;
+	align-items: center;
+}
+
+#box-content{
+	background-color: #F2F2F2;
+	text-align: center;
+	min-height: 250px;
+    align-items: center;
+}
+#box-footer{
+	background-color: #78909C;
+	text-align: center;
+	font-weight: bold;
+	align-items: center;
+}
+	/*From page 3 to 5*/
+#step-info{
+	justify-content: center;
+	padding: 0px 10px;
+}
+
+/*/////////////
+2. Text Colors
+//////////////*/
+.white-text{
+	color: #fff;
+}
+.orange-text{
+	color: #ffb300;
+}
+.purple-text{
+	color: #A056A4;
+}
+.grey-text{
+	color: #35424A;
+}
+
+
+
+/*/////////////
+3.1 Text before Header
+//////////////*/
+
+.before-header p{
+	 margin: 0;
+	 text-align: center;
+
+}
+
+
+
+
+
+/*/////////////
+3.2 Text of Hearder|Footer
+//////////////*/
+#box-header div p{
+	font-size: 1.4rem;
+	margin:5px 0px;
+}
+#box-footer div p{
+	font-size: 1.4rem;
+	margin:5px 0px;
+}
+
+/*/////////////
+4. CSS for Content
+//////////////*/
+.box-title{
+	font-size: 3rem; 
+
+	font-weight: bold;
+}
+.steps-container{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: center;
+	list-style: none;
+	padding: 0px;
+}
+.steps-container li{
+	width: 11.11%;
+}
+
+.steps-container li img{
+	width: 100%;
+	height: auto;
+	max-height: 120px;
+	max-width: 120px;
+}
+.steps-container li p{
+	margin: 0px;
+	font-weight: bold;
+}
+	/*For pages 3 to 5*/
+.disabled{
+	opacity: 0.5;
+}
+
+
+/*/////////////
+5. Highligh Section Page 2
+//////////////*/
+.highligth-section{
+	background-color: #ffb300;
+	padding: 10px 0px;
+}
+.highligth-texts{
+	display: flex;
+    flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+
+	padding: 0px;
+	margin: 0px;
+	font-size: 1.3rem;
+}
+.highligth-texts li {
+	margin: 0px 10px;
+}
+
+/*/////////////
+6. Steps Titles page 3 to 5
+//////////////*/
+.step-headline{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding-bottom:10px;
+}
+.step-headline h2, .step-headline h3{
+	font-weight: bold;
+	margin-top: 13px;
+	margin-bottom: 0px;
+}
+.step-headline img{
+	height: 70px;
+	width: auto;
+}
+.row-text{
+	text-align: left;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.row-text p{
+	margin-bottom: 0px;
+}
+
+/*/////////////
+7. Steps info page 3 to 5
+//////////////*/
+.list-header{
+	display: flex;
+	align-items: flex-end;
+}
+.list-header h5{
+	font-weight: bold;
+}
+#step-info div ul{
+	text-align: left;
+}
+.steps-tips{
+}
+.steps-tips h3, .steps-tips ul li span{
+	font-weight: bold;
+}
+.steps-tips ul{
+	text-align: left;
+	padding-right: 20px;
+}
+	
+
+
+
+/*/////////////
+8. Media Queries
+//////////////*/
+
+@media (max-width: 800px) {
+	#fake-website{
+	height: auto;
+
+}
+@media (max-width: 600px) {
+
+    .steps-container li{
+	width: 100%;
+	}
+	.highligth-texts li {
+	width: 100%;
+	}
+	.page1 li{
+	width: 11.11% !important;
+	}
+}
+@media (max-width: 350px) {
+
+    #icon{
+    	display: none;
+    }
+
+	.before-header div{
+		margin-left: 0px;
+	}
+}
