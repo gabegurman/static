@@ -21,14 +21,16 @@
 	Erase
 //////////////*/
 
-#fake-website{
+/* #fake-website{
 	height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+body {
+  background: transparent;
 }
-
-
 
 /*/////////////
 1. Sections of Box
