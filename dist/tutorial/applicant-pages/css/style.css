@@ -153,6 +153,7 @@ body {
 .steps-container li p{
 	margin: 0px;
 	font-weight: bold;
+    font-size: 0.75rem;
 }
 	/*For pages 3 to 5*/
 .disabled{
@@ -163,6 +164,9 @@ body {
 /*/////////////
 5. Highligh Section Page 2
 //////////////*/
+.page2{
+	width: 80%
+}
 .highligth-section{
 	background-color: #ffb300;
 	padding: 10px 0px;
@@ -243,12 +247,20 @@ body {
 @media (max-width: 800px) {
 	#fake-website{
 	height: auto;
+	}
+	.page2{
+	width: 90% !important;
+	}
+
 
 }
 @media (max-width: 600px) {
 
     .steps-container li{
 	width: 100%;
+	}
+	.steps-container li p{
+    font-size: 1em;
 	}
 	.highligth-texts li {
 	width: 100%;
@@ -259,7 +271,7 @@ body {
 	}
 }
 @media (max-width: 400px) {
-
+	
     #icon{
     	display: none;
     }
