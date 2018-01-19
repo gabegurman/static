@@ -16,8 +16,7 @@
 </head>
 <body style="background-color: transparent;">
 
-<div class="container">
-
+<div>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -89,7 +88,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script>
   (function(){
-    $('.carousel').carousel();
+    $('.carousel').carousel({
+      interval: 10000
+    });
   })();
 </script>
 </body>
