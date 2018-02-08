@@ -38,10 +38,11 @@ body {
 1. Sections of Box
 //////////////*/
 .box-container{
-	width: 80%;
+	padding-top:20px;
 }
 .before-header{
 	width: 100%;
+	min-height: 25px;
 }
 .before-header div{
 	margin-left: 45px;
@@ -59,6 +60,7 @@ body {
 	text-align: center;
 	font-weight: bold;
 	align-items: center;
+	min-height: 45px;
 }
 
 #box-content{
@@ -66,12 +68,14 @@ body {
 	text-align: center;
 	min-height: 250px;
     align-items: center;
+    min-height: 340px;
 }
 #box-footer{
 	background-color: #78909C;
 	text-align: center;
 	font-weight: bold;
 	align-items: center;
+	min-height: 45px;
 }
 	/*From page 3 to 5*/
 #step-info{
